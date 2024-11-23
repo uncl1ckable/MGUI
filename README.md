@@ -28,6 +28,40 @@ MGUI is a simple and intuitive plugin for organizing server menus in Minecraft. 
 - Categorization of servers for better organization.
 - Fully customizable graphical interface.
 - Automatic connection to an available server.
+- Localization
+
+---
+
+## 🌍 Localizations
+
+MGUI supports multiple languages ​​for more flexible customization and use. You can change the menu language by selecting the appropriate localization.
+
+### Available Localizations:
+- 🇺🇸 **English** (`en`)
+- 🇷🇺 **Russian** (`ru`)
+
+### How to Change Language:
+1. Open the file `config.yml`
+2. Change the value to the desired language code (`en` or `ru`)
+
+**Example:**
+
+```yaml
+configPaths:
+  settings: 'settings.yml'
+  gui: 'lang/en/gui.yml'  # Change from 'en' to 'ru' to switch language
+  # For Russian, use:
+  # gui: 'lang/ru/gui.yml'
+
+  configureServers: 'lang/en/configure-servers.yml'  # Change from 'en' to 'ru' to switch language
+  # For Russian, use:
+  # configureServers: 'lang/ru/configure-servers.yml'
+```
+
+### How to Create Language:
+1. Open the directory lang.
+2. Create a folder with a short name.
+3. Move files from another localization and translate, then change the directory path as indicated above.
 
 ---
 
@@ -61,6 +95,22 @@ MGUI is a simple and intuitive plugin for organizing server menus in Minecraft. 
 
 ### 4️⃣ Adding a Placeholder for All Servers
 1. Open the file `settings.yml`.
+2. Locate the `placeholders` parameter and add the desired placeholders.  
+   Example of a default configuration:  
+   ```yaml
+   placeholders:
+     '{server_tps}': '%server_tps%'
+   ```
+   To add a new placeholder, such as server uptime, the configuration will look like this:
+   ```yaml
+   placeholders:
+     '{server_tps}': '%server_tps%'
+     '{server_uptime}': '%server_uptime%'
+   ```
+3. These placeholders will now be sent and used by all servers.
+
+### 5️⃣ Change language
+1. Open the file `config.yml`.
 2. Locate the `placeholders` parameter and add the desired placeholders.  
    Example of a default configuration:  
    ```yaml
