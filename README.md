@@ -108,22 +108,6 @@ configPaths:
      '{server_uptime}': '%server_uptime%'
    ```
 3. These placeholders will now be sent and used by all servers.
-
-### 5️⃣ Change language
-1. Open the file `config.yml`.
-2. Locate the `placeholders` parameter and add the desired placeholders.  
-   Example of a default configuration:  
-   ```yaml
-   placeholders:
-     '{server_tps}': '%server_tps%'
-   ```
-   To add a new placeholder, such as server uptime, the configuration will look like this:
-   ```yaml
-   placeholders:
-     '{server_tps}': '%server_tps%'
-     '{server_uptime}': '%server_uptime%'
-   ```
-3. These placeholders will now be sent and used by all servers.
    
 ---
 
@@ -137,10 +121,10 @@ configPaths:
 ---
 
 ## 🎨 Screenshots
-<img src="https://github.com/user-attachments/assets/54ff24db-03d1-4280-bb08-23b226eb45ae" width="400"/>
-<img src="https://github.com/user-attachments/assets/9937eacd-a216-4d5d-8e54-666fb7219840" width="400"/>
-<img src="https://github.com/user-attachments/assets/ed50761b-5538-4fff-9854-a6974badf0b2" width="800"/>
-<img src="https://github.com/user-attachments/assets/ef44b24b-e0d5-4916-b57d-a2a84ce126de" width="800"/>
+<img src="https://github.com/user-attachments/assets/7acaadca-d2b0-417f-ac87-5d0150303e86" width="400"/>
+<img src="https://github.com/user-attachments/assets/7eb0c881-b7a4-4635-944c-9f4caa2d1bc2" width="450"/>
+<img src="https://github.com/user-attachments/assets/dc441f58-bd29-468f-ae47-b0c96d3069ba" width="850"/>
+<img src="https://github.com/user-attachments/assets/2ada8a61-0beb-453b-a951-a6f1a953a1ed" width="850"/>
 
 
 ---
