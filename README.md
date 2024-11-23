@@ -86,8 +86,14 @@ MGUI is a simple and intuitive plugin for organizing server menus in Minecraft. 
 
 ---
 
-<!-- ## 🎨 Screenshots
---- !-->
+## 🎨 Screenshots
+<img src="https://github.com/user-attachments/assets/54ff24db-03d1-4280-bb08-23b226eb45ae" width="400"/>
+<img src="https://github.com/user-attachments/assets/9937eacd-a216-4d5d-8e54-666fb7219840" width="400"/>
+<img src="https://github.com/user-attachments/assets/ed50761b-5538-4fff-9854-a6974badf0b2" width="800"/>
+<img src="https://github.com/user-attachments/assets/ef44b24b-e0d5-4916-b57d-a2a84ce126de" width="800"/>
+
+
+---
 
 💡 **Tip**: Use **PlaceholderAPI** to add unique data (e.g., online players, server status) to the menu.
 
