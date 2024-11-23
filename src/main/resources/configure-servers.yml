@@ -1,0 +1,5 @@
+servers:
+  'game':
+    name: '&0Игры на выживание'
+    servers:
+      - 'game-1'

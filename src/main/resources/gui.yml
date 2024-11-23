@@ -1,0 +1,36 @@
+parameters:
+  size: 54
+
+items:
+  SERVER:
+    name: '&aИгра #{index}'
+    material: EMERALD
+    positions: [10, 11, 12, 13, 14, 20, 21, 22, 23, 24]
+    lore:
+      - ''
+      - ' &fИгроков: &a{players}/{max-players}'
+      - ' &fДоступен с версии: &a{version}'
+      - '{server_tps}'
+      - ''
+      - ' &a▸ Нажмите для подключения'
+    placeholderLines:
+      '{server_tps}': '&fТекущий TPS: &a{server_tps}'
+  NON_SERVERS:
+    name: '&aНет доступных игр'
+    material: BARRIER
+    positions: [24]
+  AUTO_CONNECT:
+    name: '&aАвтоматическое подключение'
+    material: ENDER_PEARL
+    positions: [40]
+    lore:
+      - ''
+      - ' &a▸ Нажмите для подключения'
+  NEXT_PAGE:
+    name: '&aСледующая страница {next-page}'
+    material: ARROW
+    positions: [53]
+  PREVIOUS_PAGE:
+    name: '&aПредыдущая страница {previous-page}'
+    material: ARROW
+    positions: [45]

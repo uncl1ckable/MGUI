@@ -1,0 +1,13 @@
+name: MGUI
+version: '${version}'
+main: me.unclickable.mgui.bukkit.MGUI
+api-version: '1.16'
+authors: [unclickable]
+description: Easy and convenient menu for connecting movement between servers
+softdepend:
+  - PlaceholderAPI
+libraries:
+  - com.squareup.moshi:moshi:1.15.1
+commands:
+  mgui:
+    usage: /mgui

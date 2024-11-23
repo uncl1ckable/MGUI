@@ -1,0 +1,6 @@
+# Servers statistics, send and query, in ms
+refresh: 1000
+
+# Which placeholders should be transferred to the shared storage for further retrieval
+placeholders:
+  '{server_tps}': '%server_tps%'
