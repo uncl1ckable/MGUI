@@ -1,4 +1,4 @@
-# 🌟 MGUI — Convenient Menu for Minecraft Servers 🌟
+# 🌟 MGUI — Convenient Menu for Minecraft Servers
 
 ## 📖 Description
 MGUI is a simple and intuitive plugin for organizing server menus in Minecraft. It allows players to easily navigate between servers through a user-friendly graphical interface.
