@@ -1,25 +1,23 @@
 package me.unclickable.mgui.netty.common;
 
-import com.google.gson.Gson;
 import lombok.Builder;
 import lombok.Getter;
 import me.unclickable.mgui.netty.CommandType;
+import me.unclickable.mgui.utils.GsonUtils;
 
 @Builder
 @Getter
 public class Command {
 
-    private static final Gson GSON = new Gson();
-
     private final CommandType type;
     private final String payload;
 
     public String serialize() {
-        return GSON.toJson(this);
+        return GsonUtils.serialize(this);
     }
 
     public static Command deserialize(String json) {
-        return GSON.fromJson(json, Command.class);
+        return GsonUtils.deserialize(json, Command.class);
     }
 
 }

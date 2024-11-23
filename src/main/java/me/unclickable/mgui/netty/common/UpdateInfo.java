@@ -1,25 +1,22 @@
 package me.unclickable.mgui.netty.common;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import lombok.Builder;
 import lombok.Getter;
+import me.unclickable.mgui.utils.GsonUtils;
 
 @Builder
 @Getter
 public class UpdateInfo {
 
-    private static final Gson GSON = new GsonBuilder().create();
-
     private int port;
     private ServerData serverData;
 
     public String serialize() {
-        return GSON.toJson(this);
+        return GsonUtils.serialize(this);
     }
 
     public static UpdateInfo deserialize(String json) {
-        return GSON.fromJson(json, UpdateInfo.class);
+        return GsonUtils.deserialize(json, UpdateInfo.class);
     }
 
 }

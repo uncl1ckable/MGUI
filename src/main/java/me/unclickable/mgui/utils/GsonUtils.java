@@ -13,6 +13,10 @@ public class GsonUtils {
 
     private static final Gson GSON = new Gson();
 
+    public static <T> T deserialize(String json, Class<T> type) {
+        return GSON.fromJson(json, TypeToken.getParameterized(type, type).getType());
+    }
+
     public static <T> List<T> deserializeList(String json, Class<T> type) {
         return GSON.fromJson(json, TypeToken.getParameterized(List.class, type).getType());
     }
