@@ -1,0 +1,36 @@
+parameters:
+  size: 54
+
+items:
+  SERVER:
+    name: '&aGame #{index}'
+    material: EMERALD
+    positions: [10, 11, 12, 13, 14, 20, 21, 22, 23, 24]
+    lore:
+      - ''
+      - ' &fPlayers: &a{players}/{max-players}'
+      - ' &fAvailable from version: &a{version}'
+      - '{server_tps}'
+      - ''
+      - ' &a▸ Click to connect'
+    placeholderLines:
+      '{server_tps}': ' &fCurrent TPS: &a{server_tps}'
+  NON_SERVERS:
+    name: '&aNo available games'
+    material: BARRIER
+    positions: [24]
+  AUTO_CONNECT:
+    name: '&aAuto Connect'
+    material: ENDER_PEARL
+    positions: [40]
+    lore:
+      - ''
+      - ' &a▸ Click to connect'
+  NEXT_PAGE:
+    name: '&aNext Page {next-page}'
+    material: ARROW
+    positions: [53]
+  PREVIOUS_PAGE:
+    name: '&aPrevious Page {previous-page}'
+    material: ARROW
+    positions: [45]

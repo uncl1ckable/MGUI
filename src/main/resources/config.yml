@@ -1,4 +1,4 @@
 configPaths:
   settings: 'settings.yml'
-  gui: 'gui.yml'
-  configureServers: 'configure-servers.yml'
+  gui: 'lang/en/gui.yml'
+  configureServers: 'lang/en/configure-servers.yml'
