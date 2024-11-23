@@ -122,7 +122,7 @@ configPaths:
 
 ## 🎨 Screenshots
 <img src="https://github.com/user-attachments/assets/7acaadca-d2b0-417f-ac87-5d0150303e86" width="400"/>
-<img src="https://github.com/user-attachments/assets/7eb0c881-b7a4-4635-944c-9f4caa2d1bc2" width="450"/>
+<img src="https://github.com/user-attachments/assets/7eb0c881-b7a4-4635-944c-9f4caa2d1bc2" width="400"/>
 <img src="https://github.com/user-attachments/assets/dc441f58-bd29-468f-ae47-b0c96d3069ba" width="850"/>
 <img src="https://github.com/user-attachments/assets/2ada8a61-0beb-453b-a951-a6f1a953a1ed" width="850"/>
 
