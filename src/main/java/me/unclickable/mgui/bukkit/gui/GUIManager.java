@@ -45,7 +45,7 @@ public class GUIManager implements LoadManagerInterface<GUIManager> {
 
     public void open(HumanEntity entity, String category) {
         CategoryUtils.getName(category).ifPresent(categoryName -> {
-            Inventory inventory = Bukkit.createInventory(null, 54, TextUtils.getComponent(categoryName));
+            Inventory inventory = Bukkit.createInventory(null, ConfigManager.getConfig().gui().parameters().size(), TextUtils.getComponent(categoryName));
             GUIData guiData = GUIData.builder().category(category).inventory(inventory).page(1).build();
             humanGui.put(entity, guiData);
             updateItems(entity, category);
